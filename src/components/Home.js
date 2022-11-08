@@ -80,7 +80,10 @@ const Home = () => {
             className="bg-light lines-style mt-5 mb-5"
             style={{ border: `0`, borderTop: `1px solid rgba(0, 0, 0, 0.5)` }}
           />
-          <h2 className="text-dark text-center mt-4 fw-bolder">Food Bar</h2>
+          <h1 className="text-dark text-center mt-4 fw-bolder">
+            <span className="color1">Food</span>
+            <span className="color2 m-1">Record</span>
+          </h1>
           <div className="row row-cols-1 row-cols-md-4 g-4 mt-1 mb-5">
             {data &&
               data.data.map((r) => {
