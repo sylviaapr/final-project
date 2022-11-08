@@ -42,11 +42,11 @@ const Alluser = () => {
     })
       .then((response) => {
         console.log(response);
+        getAllUser();
       })
       .catch((error) => {
         console.log(error);
       });
-    getAllUser();
   };
 
   const MySelect = ({ label, ...props }) => {
