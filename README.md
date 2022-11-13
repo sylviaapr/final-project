@@ -45,3 +45,5 @@ Food Record is a food based website.
 - **React**
 
 ## Netlify
+
+- **https://foodrecord.netlify.app/**
